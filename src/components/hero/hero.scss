@@ -1,0 +1,26 @@
+.image-sec{
+    background-color: rgb(237, 213, 183);
+    height: 720px;
+    .hero-content{
+        text-align: center;
+    }
+    img{
+        margin: 5% 0px;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .subheading{
+        font-size: 1.5rem;
+    }
+    .button{
+       padding: 10px 16px ;
+        background-color: plum;
+        border: 2px solid rgb(244, 69, 244);
+        &:hover{
+            background-color: rgb(255, 0, 0);
+            color: aliceblue;
+            border: 3px solid white;
+        }
+    }
+}
